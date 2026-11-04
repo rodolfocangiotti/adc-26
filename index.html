@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Networked Music Performance in Max</title>
+    <meta name="description" content="Poster by Rodolfo Cangiotti. ADC Bristol 2026.">
+    
+      
+      <link rel="icon" href="/assets/images/rwt/favicon-colour-transparent.png">
+    
+    
+      <link rel="apple-touch-icon" href="/assets/images/rwt/app-colour-transparent.png">
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Lora:ital,wght@0,400..700;1,400..700&amp;display=swap">
+      
+    
+    <link rel="stylesheet" href="/assets/css/main.css?v=1794182699">
+    
+  </head>
+  
+  
+  <body class="layout-landing-page content-align-left">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-header-brand" href="/" aria-label="Networked Music Performance in Max home">
+      
+      <span>Networked Music Performance in Max</span>
+    </a>
+
+    <button class="header-menu-toggle" type="button" aria-controls="header-nav" aria-expanded="false">
+      <span class="menu-toggle-icon" aria-hidden="true"></span>
+      <span class="header-menu-label">Menu</span>
+    </button>
+
+    <nav class="header-nav" id="header-nav" aria-label="Main navigation">
+      
+        
+          
+          
+          
+          
+
+          <div class="header-nav-group">
+            <div class="header-nav-parent">
+              
+                <a class="header-nav-link" href="/#introduction">
+                  Introduction
+                </a>
+              
+            </div>
+            
+          </div>
+        
+          
+          
+          
+          
+
+          <div class="header-nav-group">
+            <div class="header-nav-parent">
+              
+                <a class="header-nav-link" href="/#state-of-the-art">
+                  State of the Art
+                </a>
+              
+            </div>
+            
+          </div>
+        
+          
+          
+          
+          
+
+          <div class="header-nav-group">
+            <div class="header-nav-parent">
+              
+                <a class="header-nav-link" href="/#proposed-solution">
+                  Proposed Solution
+                </a>
+              
+            </div>
+            
+          </div>
+        
+          
+          
+          
+          
+
+          <div class="header-nav-group">
+            <div class="header-nav-parent">
+              
+                <a class="header-nav-link" href="/#conclusions">
+                  Conclusions
+                </a>
+              
+            </div>
+            
+          </div>
+        
+      
+    </nav>
+  </div>
+</header>
+
+      <main class="site-main" id="main">
+        
+
+
+<article class="landing-page">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+<header class="landing-hero landing-hero--split landing-hero--bg-primary"
+  >
+  <div class="landing-hero-heading landing-hero-heading--left">
+    
+    <h1>Networked Music Performance in Max: from Tool to Object Prototype</h1>
+  </div>
+  <div class="landing-hero-content">
+    
+      <div class="landing-hero-lead"><p><em>Poster by Rodolfo Cangiotti</em> – <a href="mailto:hello@rodolfocangiotti.art">hello@rodolfocangiotti.art</a><br />
+<strong>ADC Bristol 2026</strong></p>
+</div>
+    
+    
+  </div>
+  
+    <figure class="landing-hero-media landing-hero-media--contain">
+      <img src="/assets/images/network-nodes.svg" alt="Network nodes">
+    </figure>
+  
+</header>
+
+  
+
+  
+  
+
+  
+    
+        
+
+
+
+
+
+
+<section id="introduction" class="landing-section landing-section--bg-secondary">
+  <div class="landing-section-body">
+    
+      <header class="page-header">
+        <h1>1️⃣ Introduction</h1>
+      </header>
+    
+    
+      <p class="eyebrow">What</p>
+    
+    <h2>Abstract</h2>
+    
+      <div class="prose">
+        <p>Max ecosystem is currently providing a lot of tools for Networked Music Performances. However, depending on the use case and context, these available tools might be not sufficient, sometimes.</p>
+
+<p>This poster will try to condense the state-of-the-art regarding Max objects for Networked Music Performance as of now. In addition, a new Max object capable of covering a more vast scope of application will be proposed.</p>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+    <div class="landing-card-grid">
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+              <p class="eyebrow">Why</p>
+            
+            <h3>Research Objective</h3>
+            
+              <div class="landing-card-text"><p>This work aims to demostrate that, even if Max environment already provides plenty of tools for different contexts of application, developing new objects might be a valid option. Thanks to the official Cycling ‘74 SDK, that process is definitely straightforward.</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+              <p class="eyebrow">How</p>
+            
+            <h3>Research Methodology</h3>
+            
+              <div class="landing-card-text"><p>The current state-of-the-art will be evaluated against assessment criteria, as well as the new Max object proposed.</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+              <p class="eyebrow">When and Where</p>
+            
+            <h3>Research Context</h3>
+            
+              <div class="landing-card-text"><p>This research started in 2025 as final work of the New Technologies for Performance course, at Le Marche Politechnic University (Ancona, Italy), and is still ongoing.</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+    </div>
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="state-of-the-art" class="landing-section">
+  <div class="landing-section-body">
+    
+      <header class="page-header">
+        <h1>2️⃣ State of the Art</h1>
+      </header>
+    
+    
+    <h2>Assessment Criteria</h2>
+    
+      <div class="prose">
+        <p>To evaluate the tools for Networked Music Performance currently available in the Max environment, an assessment criteria has been formalized. The following features have been used to set up a metric:</p>
+<ul>
+  <li>shared data type/s – audio signal is preferred</li>
+  <li>data sharing protocol – transport layer protocols are preferred</li>
+  <li>dependency/linkage with external tools – no dependencies is preferred</li>
+</ul>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="max-native-objects" class="landing-section">
+  <div class="landing-section-body">
+    
+    
+    <h2>Max Native Objects</h2>
+    
+      <div class="prose">
+        <p>Here is a list of all the objects provided via the official Max distribution.</p>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+    <div class="landing-card-grid">
+      
+        <article class="landing-card">
+          
+            <img  src="/assets/images/udpsend-and-udpreceive.png" alt="udpsend and udpreceive objects">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">udpsend</span> and <span style="font-family: Courier New;">udpreceive</span>
+</h3>
+            
+              <div class="landing-card-text"><p>Max objects to send and receive messages over a network.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 they leverage the UDP protocol</li>
+  <li>🔴 they are only for control data</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://docs.cycling74.com/reference/udpsend/"><span style="font-family: Courier New;">udpsend</span> object reference</a></li>
+  <li><a href="https://docs.cycling74.com/reference/udpreceive/"><span style="font-family: Courier New;">udpreceive</span> object reference</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+            <img  src="/assets/images/jit.net.send-and-jit.net.recv.png" alt="jit.net.send and jit.net.recv objects">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">jit.net.send</span> and <span style="font-family: Courier New;">jit.net.recv</span>
+</h3>
+            
+              <div class="landing-card-text"><p>Jitter objects to send and receive matrices over a network.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 they are built upon the TCP protocol</li>
+  <li>🔴 theoretically, they are only for video streams</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://docs.cycling74.com/reference/jit.net.send/"><span style="font-family: Courier New;">jit.net.send</span> object reference</a></li>
+  <li><a href="https://docs.cycling74.com/reference/jit.net.recv/"><span style="font-family: Courier New;">jit.net.recv</span> object reference</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+            <img  src="/assets/images/mxj-and-mxj~.png" alt="mxj object">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">mxj</span> and <span style="font-family: Courier New;">mxj~</span>
+</h3>
+            
+              <div class="landing-card-text"><p>Objects to execute Java code in Max and MSP.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 they allow to use Java classes for data exchange via TCP/UDP</li>
+  <li>🔴 they need JDK to be installed on host machine</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://docs.cycling74.com/reference/mxj/"><span style="font-family: Courier New;">mxj</span> object reference</a></li>
+  <li><a href="https://docs.cycling74.com/reference/mxj~/"><span style="font-family: Courier New;">mxj~</span> object reference</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+            <img  src="/assets/images/param.osc.png" alt="param.osc object">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">param.osc</span>
+</h3>
+            
+              <div class="landing-card-text"><p>Max object to control and report information about Parameters via OSC.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 it provides a control interface for native OSC communications between objects, via UDP protocol</li>
+  <li>🔴 it allows to manage only object <em>Parameters</em> in Max v.9.x.x</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://docs.cycling74.com/reference/param.osc/"><span style="font-family: Courier New;">param.osc</span> object reference</a></li>
+  <li><a href="https://docs.cycling74.com/userguide/parameter_mode/"><span style="font-style: italic;">Parameter</span> mode user guide</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+    </div>
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="externals-and-projects" class="landing-section">
+  <div class="landing-section-body">
+    
+    
+    <h2>Externals and Projects</h2>
+    
+      <div class="prose">
+        <p>Here is a list of external objects or projects built with Max.</p>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+    <div class="landing-card-grid">
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">odot</span> library
+</h3>
+            
+              <div class="landing-card-text"><p>Set of externals to streamline complex communication between Max objects.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 they rely on the OSC protocol, so on top of TCP/UDP protocol</li>
+  <li>🔴 they can only manage control data</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://cycling74.com/packages/odot">Max package page</a></li>
+  <li><a href="https://github.com/CNMAT/CNMAT-odot">Official repository</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">Quaxtrip</span> patchers
+</h3>
+            
+              <div class="landing-card-text"><p>Max patchers to establish audio and messaging connections over the internet.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 they provide abstractions encapsulating JackTrip</li>
+  <li>🔴 the project is built upon a Pure Data object</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://cycling74.com/articles/quaxtrip-and-internet-performance-an-interview-with-damon-holzborn">Max article</a></li>
+  <li><a href="https://github.com/damonholzborn/Quaxtrip">Official repository</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">Quintet.net</span> project
+</h3>
+            
+              <div class="landing-card-text"><p>Network multimedia performance environment based on pre-built tools.</p>
+
+<p>Key points:</p>
+<ul>
+  <li>🟢 it proposes a set of tools for performances, with up to five musicians plus a conductor</li>
+  <li>🔴 it require multiple dependencies to run under the hoods</li>
+</ul>
+
+<p>To learn more:</p>
+<ul>
+  <li><a href="https://georghajdu.de/6-2/quintet.net/">Official website</a></li>
+  <li><a href="https://github.com/HfMT-ZM4/Quintet.net">Official repository</a></li>
+</ul>
+</div>
+            
+            
+          </div>
+        </article>
+      
+    </div>
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="proposed-solution" class="landing-section landing-section--bg-secondary">
+  <div class="landing-section-body">
+    
+      <header class="page-header">
+        <h1>3️⃣ Proposed Solution</h1>
+      </header>
+    
+    
+    <h2>Object Requirements</h2>
+    
+      <div class="prose">
+        <p>Considering the assessment criteria used to evaluate all the options currently available in the Max ecosystem, none of those options achieved a full score.</p>
+
+<p>Then, this research has tried to propose a new Max object. This latter should:</p>
+<ul>
+  <li>allow users to share audio signals</li>
+  <li>allow audio contents to be shared both via UDP and TCP protocol</li>
+  <li>not require dependencies to be installed</li>
+</ul>
+
+<p>In particular, the object prototype should satisfy all the following requirements as well:</p>
+<ul>
+  <li>it should allow user:
+    <ul>
+      <li>to set IP and port of the target device</li>
+      <li>to set the protocol to be used for exchanging data with the target device</li>
+      <li>to decide the contents to be shared with the same device</li>
+      <li>to connect to that target device</li>
+      <li>to disconnect from the same device</li>
+      <li>to get the object state</li>
+    </ul>
+  </li>
+</ul>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="development-tool" class="landing-section landing-section--bg-secondary">
+  <div class="landing-section-body">
+    
+    
+    <h2>Development Tools</h2>
+    
+      <div class="prose">
+        <p>The following tools have been used to prototype the new Max object.</p>
+
+<h3 id="1-musnet-api">1. MuSNet API</h3>
+<p>This research is part of a project named MuSNet, whose objective is to create an ecosystem for Networked Music Performances, with the following key points:</p>
+<ul>
+  <li>guaranteeing cross platform compliance</li>
+  <li>providing builds for multiple targets</li>
+  <li>allowing streamlined configuration and usage</li>
+</ul>
+
+<p>The project proposes tools to create a low latency client-server network, where users share musical contents via <em>ad hoc</em> defined protocol.</p>
+
+<p>From technical perspective, MuSNet is written in C++ and provides a very high-level class with methods for:</p>
+<ul>
+  <li>connecting to a MuSNet session</li>
+  <li>sharing data with other connected users</li>
+  <li>disconnecting from the session</li>
+</ul>
+
+<p>This project as been used as Networked Music Performance tool because it partially satisfies some of the object requirements previously listed via an intuitive API.</p>
+
+<h3 id="2-min-devkit">2. Min DevKit</h3>
+<p>Min DevKit is the official SDK distributed by Cycling ‘74, to speed up the development of Max objects. It is written in modern C++ and provides a well documented high-level declarative API to implement new objects.</p>
+
+<p>Here are the SDK essentials:</p>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+    <div class="landing-card-grid">
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">sample_operator</span> and <span style="font-family: Courier New;">vector_operator</span> base classes
+</h3>
+            
+              <div class="landing-card-text"><p>Parent class from which the main one should be inherited, respectively to implement sample-based or vector-based DSP</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">operator()</span> method
+</h3>
+            
+              <div class="landing-card-text"><p>Actuall class method where the signal computation algorithm should be implemented</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">inlet</span> and <span style="font-family: Courier New;">outlet</span> class attributes
+</h3>
+            
+              <div class="landing-card-text"><p>Data types to be used in the main class to define Max object’s I/O</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">argument<T></span> and <span style="font-family: Courier New;">attribute<T></span> class attributes
+</h3>
+            
+              <div class="landing-card-text"><p>Data types to be used in the main class to define Max object’s arguments and (named) attributes</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">message<T></span> class attributes
+</h3>
+            
+              <div class="landing-card-text"><p>Class instances to define the behavior of the Max object when receiving certain messages</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">setup<T></span>, <span style="font-family: Courier New;">dspsetup<T></span>, etc. magic messages
+</h3>
+            
+              <div class="landing-card-text"><p>Special messages managed by the Max object under the hood; to be overwritten to customize the object behavior during particular events (like switching on/off DSP engine, etc.)</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+        <article class="landing-card">
+          
+          <div class="landing-card-body">
+            
+            
+            <h3><span style="font-family: Courier New;">MIN_FUNCTION<T></span>, <span style="font-family: Courier New;">MIN_ARGUMENT_FUNCTION<T></span>, etc. macros
+</h3>
+            
+              <div class="landing-card-text"><p>Useful tools to speed up the code writing</p>
+</div>
+            
+            
+          </div>
+        </article>
+      
+    </div>
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="implementation-process" class="landing-section landing-section--bg-secondary">
+  <div class="landing-section-body">
+    
+    
+    <h2>Implementation Process</h2>
+    
+      <div class="prose">
+        <p>By using the Min DevKit framework to define the object’s main features and by injecting the MuSNet API inside it, the code writing stage has been more linear than expected.</p>
+
+      </div>
+    
+    
+    
+      <div class="landing-section-actions">
+        
+          <a class="landing-button landing-button--primary" href="https://github.com/rodolfocangiotti/min-devkit/blob/musnet_client_object__beta/source/projects/min.musnet.client_tilde/min.musnet.client_tilde.cpp">View main source file</a>
+        
+      </div>
+    
+  </div>
+
+  
+
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="result" class="landing-section landing-section--bg-secondary landing-section--with-media">
+  <div class="landing-section-body">
+    
+    
+    <h2>Result</h2>
+    
+      <div class="prose">
+        <p>The overall implementation process produced a stable beta version of the new Max object.</p>
+
+<p>Evaluating it with the assessment criteria stated above, no defaults are found in the object because:</p>
+<ul>
+  <li>🟢 it allows to use both TCP and UDP protocol to communicate with the network</li>
+  <li>🟢 it lets user exchange stereo audio streams</li>
+  <li>🟢 it doesn’t need any dependency to be installed to work properly</li>
+</ul>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+    <figure class="landing-section-media landing-section-media--contain">
+      
+      <img data-image-shape="original" class="theme-shaped-image" style="--image-shape-ratio: auto; --image-fit: contain; --image-crop-position: center;" src="/assets/images/musnet-patcher.png" alt="MuSNet Patcher">
+      
+    </figure>
+  
+
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section id="conclusions" class="landing-section">
+  <div class="landing-section-body">
+    
+      <header class="page-header">
+        <h1>4️⃣ Conclusions</h1>
+      </header>
+    
+    
+    <h2></h2>
+    
+      <div class="prose">
+        <p>This research tried to analyze the current state-of-the-art regarding Max objects for Networked Music Performance. Despite the ecosystem already provides a variety of tools for Networked Music Performances, some lacks have been identified and a novel solution has been proposed. By using the Min DevKit together with the MuSNet API, it has been possible to prototype a new Max object, fulfilling all the requirements defined.</p>
+
+<p>The work in question aims to demonstrate the endless possibilities provided by the Min DevKit to enrich Max environment. Networked Music Performances as context, together with the MuSNet project, delimit a particular study case and the same process can be definitely replicated in different contexts.</p>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+</section>
+
+      
+  
+    
+        
+
+
+
+
+
+
+<section class="landing-section landing-section--bg-primary">
+  <div class="landing-section-body">
+    
+    
+    <h2></h2>
+    
+      <div class="prose">
+        <p>Proudly built <em>without</em> AI.<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a>, with graphics derived from <a href="https://jcu-eresearch.github.io/jcu-research-website-theme/">JCU Research Website</a> theme.</p>
+
+      </div>
+    
+    
+    
+  </div>
+
+  
+
+  
+</section>
+
+      
+  
+</article>
+
+      </main>
+    </div>
+    <script src="/assets/js/main.js?v=1794182699"></script>
+    
+  </body>
+</html>
